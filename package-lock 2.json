@@ -7,12 +7,10 @@
     "": {
       "name": "eat-n-split",
       "version": "0.1.0",
-      "license": "ISC",
       "dependencies": {
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "react-scripts": "^5.0.1",
-        "tough-cookie": "^5.1.0"
+        "react-scripts": "5.0.1"
       },
       "engines": {
         "node": ">=14.0.0"
@@ -6703,9 +6701,9 @@
       }
     },
     "node_modules/eslint-plugin-react": {
-      "version": "7.37.4",
-      "resolved": "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.37.4.tgz",
-      "integrity": "sha512-BGP0jRmfYyvOyvMoRX/uoUeW+GqNj9y16bPQzqAHf3AYII/tDs+jMN0dBVkl88/OZwNGwrVFxE7riHsXVfy/LQ==",
+      "version": "7.37.3",
+      "resolved": "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.37.3.tgz",
+      "integrity": "sha512-DomWuTQPFYZwF/7c9W2fkKkStqZmBd3uugfqBYLdkZ3Hii23WzZuOLUskGxB8qkSKqftxEeGL1TB2kMhrce0jA==",
       "dependencies": {
         "array-includes": "^3.1.8",
         "array.prototype.findlast": "^1.2.5",
@@ -9914,28 +9912,6 @@
         "canvas": {
           "optional": true
         }
-      }
-    },
-    "node_modules/jsdom/node_modules/tough-cookie": {
-      "version": "4.1.4",
-      "resolved": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-4.1.4.tgz",
-      "integrity": "sha512-Loo5UUvLD9ScZ6jh8beX1T6sO1w2/MpCRpEP7V280GKMVUQ0Jzar2U3UJPsrdbziLEMMhu3Ujnq//rhiFuIeag==",
-      "dependencies": {
-        "psl": "^1.1.33",
-        "punycode": "^2.1.1",
-        "universalify": "^0.2.0",
-        "url-parse": "^1.5.3"
-      },
-      "engines": {
-        "node": ">=6"
-      }
-    },
-    "node_modules/jsdom/node_modules/universalify": {
-      "version": "0.2.0",
-      "resolved": "https://registry.npmjs.org/universalify/-/universalify-0.2.0.tgz",
-      "integrity": "sha512-CJ1QgKmNg3CwvAv/kOFmtnEN05f0D/cn9QntgNOQlQF9dgvVTHj3t+8JPdjqawCHk7V/KA+fbUqzZ9XWhcqPUg==",
-      "engines": {
-        "node": ">= 4.0.0"
       }
     },
     "node_modules/jsesc": {
@@ -14672,22 +14648,6 @@
       "resolved": "https://registry.npmjs.org/thunky/-/thunky-1.1.0.tgz",
       "integrity": "sha512-eHY7nBftgThBqOyHGVN+l8gF0BucP09fMo0oO/Lb0w1OF80dJv+lDVpXG60WMQvkcxAkNybKsrEIE3ZtKGmPrA=="
     },
-    "node_modules/tldts": {
-      "version": "6.1.71",
-      "resolved": "https://registry.npmjs.org/tldts/-/tldts-6.1.71.tgz",
-      "integrity": "sha512-LQIHmHnuzfZgZWAf2HzL83TIIrD8NhhI0DVxqo9/FdOd4ilec+NTNZOlDZf7EwrTNoutccbsHjvWHYXLAtvxjw==",
-      "dependencies": {
-        "tldts-core": "^6.1.71"
-      },
-      "bin": {
-        "tldts": "bin/cli.js"
-      }
-    },
-    "node_modules/tldts-core": {
-      "version": "6.1.71",
-      "resolved": "https://registry.npmjs.org/tldts-core/-/tldts-core-6.1.71.tgz",
-      "integrity": "sha512-LRbChn2YRpic1KxY+ldL1pGXN/oVvKfCVufwfVzEQdFYNo39uF7AJa/WXdo+gYO7PTvdfkCPCed6Hkvz/kR7jg=="
-    },
     "node_modules/tmpl": {
       "version": "1.0.5",
       "resolved": "https://registry.npmjs.org/tmpl/-/tmpl-1.0.5.tgz",
@@ -14713,14 +14673,25 @@
       }
     },
     "node_modules/tough-cookie": {
-      "version": "5.1.0",
-      "resolved": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-5.1.0.tgz",
-      "integrity": "sha512-rvZUv+7MoBYTiDmFPBrhL7Ujx9Sk+q9wwm22x8c8T5IJaR+Wsyc7TNxbVxo84kZoRJZZMazowFLqpankBEQrGg==",
+      "version": "4.1.4",
+      "resolved": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-4.1.4.tgz",
+      "integrity": "sha512-Loo5UUvLD9ScZ6jh8beX1T6sO1w2/MpCRpEP7V280GKMVUQ0Jzar2U3UJPsrdbziLEMMhu3Ujnq//rhiFuIeag==",
       "dependencies": {
-        "tldts": "^6.1.32"
+        "psl": "^1.1.33",
+        "punycode": "^2.1.1",
+        "universalify": "^0.2.0",
+        "url-parse": "^1.5.3"
       },
       "engines": {
-        "node": ">=16"
+        "node": ">=6"
+      }
+    },
+    "node_modules/tough-cookie/node_modules/universalify": {
+      "version": "0.2.0",
+      "resolved": "https://registry.npmjs.org/universalify/-/universalify-0.2.0.tgz",
+      "integrity": "sha512-CJ1QgKmNg3CwvAv/kOFmtnEN05f0D/cn9QntgNOQlQF9dgvVTHj3t+8JPdjqawCHk7V/KA+fbUqzZ9XWhcqPUg==",
+      "engines": {
+        "node": ">= 4.0.0"
       }
     },
     "node_modules/tr46": {
